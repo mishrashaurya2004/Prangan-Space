@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  nav {
+    background-color: yellow;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav img {
+    height: 50px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: inline;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .slots-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .slot {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: green;
+    display: inline-block;
+  }
+  
+  .slot.reserved {
+    background-color: red;
+  }
+
+  .slot-box {
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    align-content: center;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .slots-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px; /* Adjust this value based on your desired layout */
+    margin: 0 auto;
+}
+
+.logo-brand {
+  display: flex;
+  align-items: center;
+}
+
+.logo-brand .logo {
+  width: 50px; /* Adjust size of logo */
+  margin-right: 10px; /* Space between logo and brand name */
+}
+
+.logo-brand h5 {
+  font-size: 24px; /* Adjust size of the brand name */
+  font-weight: bold;
+  margin: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4d03f; /* Adjust according to your design */
+  padding: 10px 20px;
+}
+
+.container {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.nav-links li {
+  margin-top: 20px;
+}
